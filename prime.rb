@@ -6,6 +6,6 @@ def prime?(val)
     false 
   end 
  for el in val_range
-      if
+      if el 
  end 
 end 
