@@ -7,7 +7,8 @@ def prime?(val)
   end 
  for el in val_range
       if val % el == 0 
-        return true 
-      end   
+        return false 
+      end 
+      
  end 
 end 
