@@ -5,11 +5,5 @@ def prime?(val)
   if val <= 1 
     false 
   end 
-  val_range.each do |digit|
-    if digit % i == 0 
-      true 
-    end 
-    i += 1 
-    return false 
-  end 
+ 
 end 
