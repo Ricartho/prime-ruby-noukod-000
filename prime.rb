@@ -8,5 +8,6 @@ def prime?(val)
  for el in val_range
       if val % el == 0 
         return true 
+      end   
  end 
 end 
