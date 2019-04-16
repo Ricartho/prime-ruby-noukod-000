@@ -4,4 +4,5 @@ def prime?(val)
   if val <= 1 
     false 
   end 
+  val_range
 end 
