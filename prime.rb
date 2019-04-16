@@ -4,7 +4,7 @@ def prime?(val)
   if val <= 1 
     false 
   end 
- for el in val_range
+ for el in 2...val 
       if val % el == 0 
         return false 
       end 
