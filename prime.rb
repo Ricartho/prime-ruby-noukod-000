@@ -6,9 +6,10 @@ def prime?(val)
     false 
   end 
   val_range.each do |digit|
-    if digit % 2 == 0 
+    if digit % i == 0 
       true 
     end 
+    i += 1 
     return false 
   end 
 end 
