@@ -9,6 +9,6 @@ def prime?(val)
       if val % el == 0 
         return false 
       end 
-      
- end 
+  end 
+  return true 
 end 
