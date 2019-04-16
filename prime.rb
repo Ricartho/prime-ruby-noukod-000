@@ -4,5 +4,7 @@ def prime?(val)
   if val <= 1 
     false 
   end 
-  val_range
+  val_range.each do |digit|
+    
+  end 
 end 
