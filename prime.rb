@@ -6,6 +6,7 @@ def prime?(val)
     false 
   end 
  for el in val_range
-      if el 
+      if val % el == 0 
+        return true 
  end 
 end 
